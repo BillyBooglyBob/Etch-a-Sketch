@@ -1,0 +1,30 @@
+* {
+    border: 1px solid;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.set-dimension {
+    width: 200px;
+    font-size: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    width: 760px;
+    height: 760px;
+}
